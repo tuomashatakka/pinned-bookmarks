@@ -9,10 +9,10 @@
   },
   "menu": [
     {
-      "label": "Packages",
+      "label": "View",
       "submenu": [
         {
-          "label": "bookmarks",
+          "label": "Bookmarks",
           "submenu": [
             {
               "label": "Toggle",

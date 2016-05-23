@@ -2,7 +2,33 @@
 //
 // See https://github.com/atom/atom-dark-ui/blob/master/styles/ui-variables.less
 // for a full listing of what's available.
-@import "ui-variables";
+@import 'ui-variables';
 
 .bookmarks {
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    font-weight: 300;
+    min-width: 200px;
+    padding: 1em;
+    ol {
+        list-style: none;
+        margin: 0px;
+
+        .list-item {
+            cursor: pointer;
+            font-size: 1.2em;
+            line-height: 24px;
+            transition: 0.3s color;
+            &:hover {
+                color: #9d4ee4;
+                transition-duration: 0.1s;
+            }
+        }
+    }
+    h3 {
+        font-family: Raleway;
+        font-size: 2em;
+        font-weight: 200;
+        opacity: 0.75;
+        text-transform: uppercase;
+    }
 }
