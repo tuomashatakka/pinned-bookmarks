@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle bookmarks",
+        "command": "bookmarks:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "bookmarks",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "bookmarks:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
