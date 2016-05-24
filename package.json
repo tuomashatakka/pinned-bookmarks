@@ -1,12 +1,12 @@
 {
-  "name": "bookmarks",
+  "name": "pinned-bookmarks",
   "main": "./lib/bookmarks",
   "version": "0.0.0",
   "description": "A short description of your package",
   "keywords": [
   ],
   "activationCommands": {
-    "atom-workspace": "bookmarks:toggle"
+    "atom-workspace": "pinned-bookmarks:toggle"
   },
   "repository": "https://github.com/atom/bookmarks",
   "license": "MIT",
@@ -16,6 +16,9 @@
   "dependencies": {
   },
   "configSchema": {
-    "clearOnInit": true
+    "clearOnInit": {
+        "type": "boolean",
+        "default": false
+    }
   }
 }

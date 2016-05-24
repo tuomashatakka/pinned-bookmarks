@@ -3,7 +3,7 @@
     "atom-text-editor": [
       {
         "label": "Toggle bookmarks",
-        "command": "bookmarks:toggle"
+        "command": "pinned-bookmarks:toggle"
       }
     ]
   },
@@ -16,7 +16,7 @@
           "submenu": [
             {
               "label": "Toggle",
-              "command": "bookmarks:toggle"
+              "command": "pinned-bookmarks:toggle"
             }
           ]
         }
