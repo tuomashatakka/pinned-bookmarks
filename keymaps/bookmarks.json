@@ -1,6 +1,6 @@
 {
   "atom-workspace": {
-    "shift-alt-D": "pinned-bookmarks:toggle",
-    "ctrl-alt-shift-D": "pinned-bookmarks:add"
+    "alt-shift-D": "pinned-bookmarks:add",
+    "ctrl-alt-shift-D": "pinned-bookmarks:toggle"
   }
 }
