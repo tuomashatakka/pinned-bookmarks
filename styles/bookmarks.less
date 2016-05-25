@@ -24,6 +24,17 @@
                 color: #9d4ee4;
                 transition-duration: 0.1s;
             }
+            .close {
+                transition: 0.3s color;
+                &::before {
+                    content: "x";
+                }
+                &:hover {
+                    color: #9d4ee4;
+                    transition-duration: 0.1s;
+                }
+
+            }
         }
     }
     h3 {
