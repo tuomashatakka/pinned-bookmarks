@@ -1,24 +1,36 @@
 {
   "name": "pinned-bookmarks",
   "main": "./lib/bookmarks",
-  "version": "0.0.0",
-  "description": "A short description of your package",
-  "keywords": [
-  ],
+  "version": "0.1.1",
+  "description": "Allows the bookmarking of files",
+  "keywords": [],
   "activationCommands": {
     "atom-workspace": "pinned-bookmarks:toggle"
   },
-  "repository": "https://github.com/atom/bookmarks",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/atom/bookmarks.git"
+  },
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
   "dependencies": {
+    "immutable": "^3.8.1"
   },
   "configSchema": {
     "clearOnInit": {
-        "type": "boolean",
-        "default": false
+      "type": "boolean",
+      "default": false
     }
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/atom/bookmarks/issues"
+  },
+  "homepage": "https://github.com/atom/bookmarks#readme",
+  "devDependencies": {},
+  "scripts": {
+    "test": "exit 0"
+  },
+  "author": "Tuomas Hatakka"
 }
