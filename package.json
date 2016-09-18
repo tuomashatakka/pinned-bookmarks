@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/atom/bookmarks.git"
+    "url": "git+https://github.com/tunpi3000/pinned-bookmarks.git"
   },
   "license": "MIT",
   "engines": {
@@ -28,9 +28,33 @@
     "url": "https://github.com/atom/bookmarks/issues"
   },
   "homepage": "https://github.com/atom/bookmarks#readme",
-  "devDependencies": {},
+  "devDependencies": {
+    "babel": "^6.5.2",
+    "babel-preset-stage-1": "^6.13.0",
+    "electron": "^1.4.0",
+    "eslint": "^3.5.0"
+  },
   "scripts": {
     "test": "exit 0"
   },
-  "author": "Tuomas Hatakka"
+  "author": "Tuomas Hatakka",
+  "babel": {
+    "presets": [
+      "es2015",
+      "stage-1"
+    ]
+  },
+  "eslintConfig": {
+    "ecmaVersion": 7,
+    "env": {
+      "node": true
+    },
+    "parserOptions": {
+      "ecmaVersion": 7,
+      "sourceType": "module",
+      "ecmaFeatures": {
+        "jsx": true
+      }
+    }
+  }
 }
