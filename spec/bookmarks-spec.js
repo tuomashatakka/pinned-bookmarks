@@ -12,10 +12,10 @@ describe('Bookmarks', () => {
 
   beforeEach(() => {
     workspaceElement = atom.views.getView(atom.workspace);
-    activationPromise = atom.packages.activatePackage('bookmarks');
+    activationPromise = atom.packages.activatePackage('pinned-bookmarks');
   });
 
-  describe('when the bookmarks:toggle event is triggered', () => {
+  describe('when the pinned-bookmarks:toggle event is triggered', () => {
     it('hides and shows the modal panel', () => {
       // Before the activation event the view is not on the DOM, and no panel
       // has been created
@@ -23,7 +23,7 @@ describe('Bookmarks', () => {
 
       // This is an activation event, triggering it will cause the package to be
       // activated.
-      atom.commands.dispatch(workspaceElement, 'bookmarks:toggle');
+      atom.commands.dispatch(workspaceElement, 'pinned-bookmarks:toggle');
 
       waitsForPromise(() => {
         return activationPromise;
@@ -37,7 +37,7 @@ describe('Bookmarks', () => {
 
         let bookmarksPanel = atom.workspace.panelForItem(bookmarksElement);
         expect(bookmarksPanel.isVisible()).toBe(true);
-        atom.commands.dispatch(workspaceElement, 'bookmarks:toggle');
+        atom.commands.dispatch(workspaceElement, 'pinned-bookmarks:toggle');
         expect(bookmarksPanel.isVisible()).toBe(false);
       });
     });
@@ -55,7 +55,7 @@ describe('Bookmarks', () => {
 
       // This is an activation event, triggering it causes the package to be
       // activated.
-      atom.commands.dispatch(workspaceElement, 'bookmarks:toggle');
+      atom.commands.dispatch(workspaceElement, 'pinned-bookmarks:toggle');
 
       waitsForPromise(() => {
         return activationPromise;
@@ -65,7 +65,7 @@ describe('Bookmarks', () => {
         // Now we can test for view visibility
         let bookmarksElement = workspaceElement.querySelector('.bookmarks');
         expect(bookmarksElement).toBeVisible();
-        atom.commands.dispatch(workspaceElement, 'bookmarks:toggle');
+        atom.commands.dispatch(workspaceElement, 'pinned-bookmarks:toggle');
         expect(bookmarksElement).not.toBeVisible();
       });
     });

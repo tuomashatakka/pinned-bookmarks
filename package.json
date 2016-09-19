@@ -1,24 +1,60 @@
 {
   "name": "pinned-bookmarks",
   "main": "./lib/bookmarks",
-  "version": "0.0.0",
-  "description": "A short description of your package",
-  "keywords": [
-  ],
+  "version": "0.1.1",
+  "description": "Allows the bookmarking of files",
+  "keywords": [],
   "activationCommands": {
     "atom-workspace": "pinned-bookmarks:toggle"
   },
-  "repository": "https://github.com/atom/bookmarks",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tunpi3000/pinned-bookmarks.git"
+  },
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
   "dependencies": {
+    "immutable": "^3.8.1"
   },
   "configSchema": {
     "clearOnInit": {
-        "type": "boolean",
-        "default": false
+      "type": "boolean",
+      "default": false
+    }
+  },
+  "bugs": {
+    "url": "https://github.com/atom/bookmarks/issues"
+  },
+  "homepage": "https://github.com/atom/bookmarks#readme",
+  "devDependencies": {
+    "babel": "^6.5.2",
+    "babel-preset-stage-1": "^6.13.0",
+    "electron": "^1.4.0",
+    "eslint": "^3.5.0"
+  },
+  "scripts": {
+    "test": "exit 0"
+  },
+  "author": "Tuomas Hatakka",
+  "babel": {
+    "presets": [
+      "es2015",
+      "stage-1"
+    ]
+  },
+  "eslintConfig": {
+    "ecmaVersion": 7,
+    "env": {
+      "node": true
+    },
+    "parserOptions": {
+      "ecmaVersion": 7,
+      "sourceType": "module",
+      "ecmaFeatures": {
+        "jsx": true
+      }
     }
   }
 }
