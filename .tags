@@ -10,6 +10,11 @@ atom	package.json	/^    "atom": ">=1.0.0 <2.0.0"$/;"	f
 atom-text-editor	menus/bookmarks.json	/^    "atom-text-editor": [$/;"	f
 atom-workspace	keymaps/bookmarks.json	/^  "atom-workspace": {$/;"	f
 atom-workspace	package.json	/^    "atom-workspace": "pinned-bookmarks:toggle"$/;"	f
+author	package.json	/^  "author": "Tuomas Hatakka",$/;"	f
+babel	package.json	/^    "babel": "^6.5.2",$/;"	f
+babel	package.json	/^  "babel": {$/;"	f
+babel-preset-stage-1	package.json	/^    "babel-preset-stage-1": "^6.13.0",$/;"	f
+bugs	package.json	/^  "bugs": {$/;"	f
 c	lib/utils.js	/^        var c = null;$/;"	v
 clearOnInit	package.json	/^    "clearOnInit": {$/;"	f
 closeElement	lib/bookmarks-view.js	/^        var closeElement = document.createElement('span');$/;"	v
@@ -19,21 +24,31 @@ command	menus/bookmarks.json	/^        "command": "pinned-bookmarks:toggle"$/;"	
 configSchema	package.json	/^  "configSchema": {$/;"	f
 context-menu	menus/bookmarks.json	/^  "context-menu": {$/;"	f
 ctrl-alt-shift-D	keymaps/bookmarks.json	/^    "ctrl-alt-shift-D": "pinned-bookmarks:toggle"$/;"	f
-default	package.json	/^        "default": false$/;"	f
+default	package.json	/^      "default": false$/;"	f
 dependencies	package.json	/^  "dependencies": {$/;"	f
-description	package.json	/^  "description": "A short description of your package",$/;"	f
-editor	lib/bookmarks.js	/^        var editor = atom.workspace.getActiveTextEditor();$/;"	v
+description	package.json	/^  "description": "Allows the bookmarking of files",$/;"	f
+devDependencies	package.json	/^  "devDependencies": {$/;"	f
+ecmaFeatures	package.json	/^      "ecmaFeatures": {$/;"	f
+ecmaVersion	package.json	/^      "ecmaVersion": 7,$/;"	f
+ecmaVersion	package.json	/^    "ecmaVersion": 7,$/;"	f
 editor	lib/utils.js	/^        var editor = document.getElementsByClassName('.line');$/;"	v
+electron	package.json	/^    "electron": "^1.4.0",$/;"	f
 elem	lib/bookmarks-view.js	/^        var elem = document.createElement('li');$/;"	v
 element	lib/bookmarks-view.js	/^        var element = document.createElement('li');$/;"	v
 engines	package.json	/^  "engines": {$/;"	f
+env	package.json	/^    "env": {$/;"	f
+eslint	package.json	/^    "eslint": "^3.5.0"$/;"	f
+eslintConfig	package.json	/^  "eslintConfig": {$/;"	f
+export.bookmarksView	lib/bookmarks.js	/^export default PinnedBookmarks = {$/;"	p
+export.panel	lib/bookmarks.js	/^    bookmarksView: null,$/;"	p
+export.subscriptions	lib/bookmarks.js	/^    panel: null,$/;"	p
+homepage	package.json	/^  "homepage": "https:\/\/github.com\/atom\/bookmarks#readme",$/;"	f
+immutable	package.json	/^    "immutable": "^3.8.1"$/;"	f
 item.elements.close	lib/bookmarks-view.js	/^            open: textElement,$/;"	p
 item.elements.open	lib/bookmarks-view.js	/^            root: element,$/;"	p
 item.elements.root	lib/bookmarks-view.js	/^        item.elements = {$/;"	p
-item.name	lib/bookmarks.js	/^        var item = {$/;"	p
-item.path	lib/bookmarks.js	/^            name: name,$/;"	p
-items.name	lib/bookmarks-view.js	/^            items[key] = {$/;"	p
-keywords	package.json	/^  "keywords": [$/;"	f
+jsx	package.json	/^        "jsx": true$/;"	f
+keywords	package.json	/^  "keywords": [],$/;"	f
 label	menus/bookmarks.json	/^              "label": "Toggle",$/;"	f
 label	menus/bookmarks.json	/^          "label": "Bookmarks",$/;"	f
 label	menus/bookmarks.json	/^        "label": "Toggle bookmarks",$/;"	f
@@ -42,13 +57,19 @@ license	package.json	/^  "license": "MIT",$/;"	f
 main	package.json	/^  "main": ".\/lib\/bookmarks",$/;"	f
 menu	menus/bookmarks.json	/^  "menu": [$/;"	f
 name	package.json	/^  "name": "pinned-bookmarks",$/;"	f
-repository	package.json	/^  "repository": "https:\/\/github.com\/atom\/bookmarks",$/;"	f
+node	package.json	/^      "node": true$/;"	f
+parserOptions	package.json	/^    "parserOptions": {$/;"	f
+presets	package.json	/^    "presets": [$/;"	f
+repository	package.json	/^  "repository": {$/;"	f
+scripts	package.json	/^  "scripts": {$/;"	f
+sourceType	package.json	/^      "sourceType": "module",$/;"	f
 submenu	menus/bookmarks.json	/^          "submenu": [$/;"	f
 submenu	menus/bookmarks.json	/^      "submenu": [$/;"	f
+test	package.json	/^    "test": "exit 0"$/;"	f
 text	lib/bookmarks-view.js	/^        var text = typeof options['text'] !== 'undefined' ? options.text : "";$/;"	v
 textElement	lib/bookmarks-view.js	/^        var textElement = document.createElement('span');$/;"	v
-this.elements.actions	lib/bookmarks-view.js	/^            'content': content,$/;"	p
-this.elements.content	lib/bookmarks-view.js	/^            'title': title,$/;"	p
-this.elements.title	lib/bookmarks-view.js	/^        this.elements = {$/;"	p
-type	package.json	/^        "type": "boolean",$/;"	f
-version	package.json	/^  "version": "0.0.0",$/;"	f
+type	package.json	/^      "type": "boolean",$/;"	f
+type	package.json	/^    "type": "git",$/;"	f
+url	package.json	/^    "url": "git+https:\/\/github.com\/tunpi3000\/pinned-bookmarks.git"$/;"	f
+url	package.json	/^    "url": "https:\/\/github.com\/atom\/bookmarks\/issues"$/;"	f
+version	package.json	/^  "version": "0.1.1",$/;"	f
