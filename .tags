@@ -1,0 +1,54 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+activationCommands	package.json	/^  "activationCommands": {$/;"	f
+alt-shift-D	keymaps/bookmarks.json	/^    "alt-shift-D": "pinned-bookmarks:add",$/;"	f
+atom	package.json	/^    "atom": ">=1.0.0 <2.0.0"$/;"	f
+atom-text-editor	menus/bookmarks.json	/^    "atom-text-editor": [$/;"	f
+atom-workspace	keymaps/bookmarks.json	/^  "atom-workspace": {$/;"	f
+atom-workspace	package.json	/^    "atom-workspace": "pinned-bookmarks:toggle"$/;"	f
+c	lib/utils.js	/^        var c = null;$/;"	v
+clearOnInit	package.json	/^    "clearOnInit": {$/;"	f
+closeElement	lib/bookmarks-view.js	/^        var closeElement = document.createElement('span');$/;"	v
+cls	lib/bookmarks-view.js	/^        var cls = typeof options['icon'] !== 'undefined'$/;"	v
+command	menus/bookmarks.json	/^              "command": "pinned-bookmarks:toggle"$/;"	f
+command	menus/bookmarks.json	/^        "command": "pinned-bookmarks:toggle"$/;"	f
+configSchema	package.json	/^  "configSchema": {$/;"	f
+context-menu	menus/bookmarks.json	/^  "context-menu": {$/;"	f
+ctrl-alt-shift-D	keymaps/bookmarks.json	/^    "ctrl-alt-shift-D": "pinned-bookmarks:toggle"$/;"	f
+default	package.json	/^        "default": false$/;"	f
+dependencies	package.json	/^  "dependencies": {$/;"	f
+description	package.json	/^  "description": "A short description of your package",$/;"	f
+editor	lib/bookmarks.js	/^        var editor = atom.workspace.getActiveTextEditor();$/;"	v
+editor	lib/utils.js	/^        var editor = document.getElementsByClassName('.line');$/;"	v
+elem	lib/bookmarks-view.js	/^        var elem = document.createElement('li');$/;"	v
+element	lib/bookmarks-view.js	/^        var element = document.createElement('li');$/;"	v
+engines	package.json	/^  "engines": {$/;"	f
+item.elements.close	lib/bookmarks-view.js	/^            open: textElement,$/;"	p
+item.elements.open	lib/bookmarks-view.js	/^            root: element,$/;"	p
+item.elements.root	lib/bookmarks-view.js	/^        item.elements = {$/;"	p
+item.name	lib/bookmarks.js	/^        var item = {$/;"	p
+item.path	lib/bookmarks.js	/^            name: name,$/;"	p
+items.name	lib/bookmarks-view.js	/^            items[key] = {$/;"	p
+keywords	package.json	/^  "keywords": [$/;"	f
+label	menus/bookmarks.json	/^              "label": "Toggle",$/;"	f
+label	menus/bookmarks.json	/^          "label": "Bookmarks",$/;"	f
+label	menus/bookmarks.json	/^        "label": "Toggle bookmarks",$/;"	f
+label	menus/bookmarks.json	/^      "label": "View",$/;"	f
+license	package.json	/^  "license": "MIT",$/;"	f
+main	package.json	/^  "main": ".\/lib\/bookmarks",$/;"	f
+menu	menus/bookmarks.json	/^  "menu": [$/;"	f
+name	package.json	/^  "name": "pinned-bookmarks",$/;"	f
+repository	package.json	/^  "repository": "https:\/\/github.com\/atom\/bookmarks",$/;"	f
+submenu	menus/bookmarks.json	/^          "submenu": [$/;"	f
+submenu	menus/bookmarks.json	/^      "submenu": [$/;"	f
+text	lib/bookmarks-view.js	/^        var text = typeof options['text'] !== 'undefined' ? options.text : "";$/;"	v
+textElement	lib/bookmarks-view.js	/^        var textElement = document.createElement('span');$/;"	v
+this.elements.actions	lib/bookmarks-view.js	/^            'content': content,$/;"	p
+this.elements.content	lib/bookmarks-view.js	/^            'title': title,$/;"	p
+this.elements.title	lib/bookmarks-view.js	/^        this.elements = {$/;"	p
+type	package.json	/^        "type": "boolean",$/;"	f
+version	package.json	/^  "version": "0.0.0",$/;"	f

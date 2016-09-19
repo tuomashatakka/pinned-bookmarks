@@ -1,0 +1,31 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	0	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+constructor	/Users/tuomas/Projects/Atom/atom-bookmarks/lib/bookmarks-view.js	/^    constructor(serializedState) {$/;"	function	line:10
+title	/Users/tuomas/Projects/Atom/atom-bookmarks/lib/bookmarks-view.js	/^        var title = document.createElement('h3');$/;"	variable	line:20
+content	/Users/tuomas/Projects/Atom/atom-bookmarks/lib/bookmarks-view.js	/^        var content = document.createElement('ol');$/;"	variable	line:21
+actions	/Users/tuomas/Projects/Atom/atom-bookmarks/lib/bookmarks-view.js	/^        var actions = document.createElement('ol');$/;"	variable	line:22
+elements.title	/Users/tuomas/Projects/Atom/atom-bookmarks/lib/bookmarks-view.js	/^        this.elements = {$/;"	property	line:29
+elements.content	/Users/tuomas/Projects/Atom/atom-bookmarks/lib/bookmarks-view.js	/^            'title': title,$/;"	property	line:30
+elements.actions	/Users/tuomas/Projects/Atom/atom-bookmarks/lib/bookmarks-view.js	/^            'content': content,$/;"	property	line:31
+addActionButton	/Users/tuomas/Projects/Atom/atom-bookmarks/lib/bookmarks-view.js	/^    addActionButton(options) {$/;"	function	line:45
+text	/Users/tuomas/Projects/Atom/atom-bookmarks/lib/bookmarks-view.js	/^        var text = typeof options['text'] !== 'undefined' ? options.text : "";$/;"	variable	line:49
+cls	/Users/tuomas/Projects/Atom/atom-bookmarks/lib/bookmarks-view.js	/^        var cls = typeof options['icon'] !== 'undefined'$/;"	variable	line:50
+elem	/Users/tuomas/Projects/Atom/atom-bookmarks/lib/bookmarks-view.js	/^        var elem = document.createElement('li');$/;"	variable	line:54
+hasItem	/Users/tuomas/Projects/Atom/atom-bookmarks/lib/bookmarks-view.js	/^    hasItem(item) {$/;"	function	line:63
+getItem	/Users/tuomas/Projects/Atom/atom-bookmarks/lib/bookmarks-view.js	/^    getItem(item) {$/;"	function	line:74
+addItem	/Users/tuomas/Projects/Atom/atom-bookmarks/lib/bookmarks-view.js	/^    addItem(item, force) {$/;"	function	line:91
+element	/Users/tuomas/Projects/Atom/atom-bookmarks/lib/bookmarks-view.js	/^        var element = document.createElement('li');$/;"	variable	line:95
+textElement	/Users/tuomas/Projects/Atom/atom-bookmarks/lib/bookmarks-view.js	/^        var textElement = document.createElement('span');$/;"	variable	line:96
+closeElement	/Users/tuomas/Projects/Atom/atom-bookmarks/lib/bookmarks-view.js	/^        var closeElement = document.createElement('span');$/;"	variable	line:97
+item.elements.root	/Users/tuomas/Projects/Atom/atom-bookmarks/lib/bookmarks-view.js	/^        item.elements = {$/;"	property	line:107
+item.elements.open	/Users/tuomas/Projects/Atom/atom-bookmarks/lib/bookmarks-view.js	/^            root: element,$/;"	property	line:108
+item.elements.close	/Users/tuomas/Projects/Atom/atom-bookmarks/lib/bookmarks-view.js	/^            open: textElement,$/;"	property	line:109
+removeItem	/Users/tuomas/Projects/Atom/atom-bookmarks/lib/bookmarks-view.js	/^    removeItem(query) {$/;"	function	line:120
+updateList	/Users/tuomas/Projects/Atom/atom-bookmarks/lib/bookmarks-view.js	/^    updateList() {$/;"	function	line:138
+serialize	/Users/tuomas/Projects/Atom/atom-bookmarks/lib/bookmarks-view.js	/^    serialize() {$/;"	function	line:148
+destroy	/Users/tuomas/Projects/Atom/atom-bookmarks/lib/bookmarks-view.js	/^    destroy() {$/;"	function	line:155
+getElement	/Users/tuomas/Projects/Atom/atom-bookmarks/lib/bookmarks-view.js	/^    getElement() {$/;"	function	line:160
